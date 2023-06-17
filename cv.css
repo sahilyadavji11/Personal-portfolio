@@ -1,0 +1,104 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(240, 234, 231);
+}
+.cv{
+    display: grid;
+    grid-template-columns: 1fr 2fr ;
+    grid-template-rows: 1fr 4fr;
+    grid-column-gap: 5px;
+    grid-row-gap: 5px;
+
+
+}
+.box{
+    /* border: 2px solid red; */
+    padding: 35px 15px ;
+    margin: 1px;
+}
+ #box1{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    height: 90px;
+}
+#box3{
+    padding-right: 55px;
+}
+.obj p{
+    font-size: 1.1rem;
+    line-height: 28px;
+}
+#box2{
+    height: 300px;
+    padding: 90px;
+    padding-top: 23px;
+}
+.box2 p{
+    font-size: 15px;
+}
+.photo img{
+    width: 120px;
+    border-radius: 50%;
+}
+#box1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px 5px;
+}
+.edu p{
+    font-size: 1.1rem;
+    line-height: 23px;
+}
+.photo{
+    margin: 5px 94px;
+}
+.info a{
+    text-decoration: none;
+}
+.info{
+    line-height: 10px;
+}
+.info h3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 22px;
+}
+.info p{
+    font-size: 1.3rem;
+}
+.about{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding-right: 60px;
+    line-height: 8px;
+    font-size: 1.2rem;
+}
+.about a{
+    text-decoration: none;
+}
+.skills li{
+    font-size: 1.2rem;
+    line-height: 28px;
+}
+.about p{
+    line-height: 20px;
+
+}
+
+.skills{
+    margin-top: 20px;
+}
+.skills ul{
+    margin-top: -10px;
+}
+.details li{
+    font-size: 1.1rem;
+    line-height: 23px;
+}
+.project li{
+    font-size: 15px;
+    line-height: 25px;
+}
+
